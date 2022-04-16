@@ -7,11 +7,15 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
-    "tailwindcss": "^3.0.24",
+    "@headlessui/vue": "^1.5.0",
+    "@heroicons/vue": "^1.0.6",
     "vue": "^3.2.31"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
     "vite": "^2.9.1"
   }
 }
