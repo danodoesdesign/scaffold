@@ -4,11 +4,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "preview": "vite preview --port 5050",
+    "notion": "node ./scripts/notion"
   },
   "dependencies": {
     "@headlessui/vue": "^1.5.0",
     "@heroicons/vue": "^1.0.6",
+    "@notionhq/client": "^1.0.4",
+    "dotenv": "^16.0.0",
     "vue": "^3.2.31"
   },
   "devDependencies": {
