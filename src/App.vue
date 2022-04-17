@@ -1,25 +1,11 @@
 <template>
-  <button @click="showPeople = !showPeople">Show people</button>
-  <ul v-if="showPeople">
-    <li class="mb-10" v-for="person in data">
-      <h5 class="text-4xl">{{ person.name }}</h5><br>
-      <p class="-mt-5">{{ person.age }} years old.</p>
-    </li>
-  </ul>
+  <div id="app">
+    <div class="container flex flex-col gap-10 p-10 mx-auto">
+      <h1 class="text-5xl ">Scaffold</h1>
+      <p>A basic Vue 3 project scaffold with a few sprinkles of joy.</p>
+      <hr class="mb-10" />
+    </div>
+    <router-view></router-view>
+  </div>
 </template>
 
-<script>
-import notionData from "../src/data/data.json"
-
-export default {
-  data() {
-    return {
-      data: notionData,
-      showPeople: false,
-    }
-  },
-};
-</script>
-
-<style>
-</style>

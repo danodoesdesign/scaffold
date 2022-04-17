@@ -12,7 +12,8 @@
     "@heroicons/vue": "^1.0.6",
     "@notionhq/client": "^1.0.4",
     "dotenv": "^16.0.0",
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
