@@ -5,7 +5,7 @@
                 href="https://tailwindui.com/components/application-ui/elements/dropdowns">TailwindUI Dropdown</a> is
             being imported from <a
                 class="text-blue-800 underline transition-all hover:underline-offset-2 hover:decoration-2 hover:text-black"
-                href="https://www.notion.so/danohara/9d30f1bf98004106856e741e2139a81d?v=c7c45e6a745848e29ff76e8a90a81228">this
+                href="https://danohara.notion.site/9d30f1bf98004106856e741e2139a81d?v=c7c45e6a745848e29ff76e8a90a81228">this
                 Notion database</a> via the <i class="px-2 py-1 rounded-md text-rose-600 bg-slate-100">npm run
                 notion</i> script.
         </p>
