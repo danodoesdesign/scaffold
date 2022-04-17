@@ -1,4 +1,4 @@
-# Scaffold
+# ✨ Scaffold
 A basic Vue 3 project scaffold with a few sprinkles of joy.
 
 ## Features
