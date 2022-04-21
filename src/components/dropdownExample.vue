@@ -37,7 +37,7 @@ https://tailwindui.com/components/application-ui/elements/dropdowns
 <script>
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/solid'
-import notionData from "@/data/data.json"
+import notionData from "@/data/dataDropdown.json"
 
 export default {
     components: {
