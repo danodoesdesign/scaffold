@@ -8,7 +8,7 @@ https://tailwindui.com/components/application-ui/elements/dropdowns
         <div>
             <MenuButton
                 class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
-                Options
+                Choose a person
                 <ChevronDownIcon class="w-5 h-5 ml-2 -mr-1" aria-hidden="true" />
             </MenuButton>
         </div>
@@ -37,7 +37,7 @@ https://tailwindui.com/components/application-ui/elements/dropdowns
 <script>
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/solid'
-import notionData from "@/data/data.json"
+import notionData from "@/data/dataDropdown.json"
 
 export default {
     components: {
@@ -50,7 +50,6 @@ export default {
     data() {
         return {
             data: notionData,
-            showPeople: false,
         }
     },
 }
