@@ -28,12 +28,12 @@ Scaffold uses an import script, connecting to a Notion database of your choosing
 
 
 ### Initial setup and auth
-Follow steps 1 and 2 in the [Notion API Getting Started](https://developers.notion.com/docs/getting-started) to create the Database you'll be reading from, and to generate the API key.
+Follow steps 1 and 2 in the [Notion API Getting Started](https://developers.notion.com/docs/getting-started) to create the Databases you'll be reading from, and to generate the API key.
 
 Create a .env file in the root folder of the project with the following contents:
 ```
 NOTION_KEY=<your-api-key>
-NOTION_DATABASE_ID=<your-database-id>
+NOTION_DATABASE_<NAME>=<each-unique-database-id>
 ```
 
 
