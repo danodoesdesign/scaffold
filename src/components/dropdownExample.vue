@@ -50,7 +50,6 @@ export default {
     data() {
         return {
             data: notionData,
-            showPeople: false,
         }
     },
 }
