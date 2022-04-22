@@ -23,7 +23,7 @@ https://tailwindui.com/components/application-ui/elements/dropdowns
                     <MenuItem v-for="person in data" v-slot="{ active }">
                     <a href="#"
                         :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-md']">{{
-                            person.name
+                                person.name
                         }}
                         <br>
                         <span class="text-sm">{{ person.age }} years old</span></a>
@@ -37,7 +37,7 @@ https://tailwindui.com/components/application-ui/elements/dropdowns
 <script>
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/solid'
-import notionData from "@/data/dataDropdown.json"
+import dataDropdown from "@/data/dataDropdown.json"
 
 export default {
     components: {
@@ -49,7 +49,7 @@ export default {
     },
     data() {
         return {
-            data: notionData,
+            data: dataDropdown,
         }
     },
 }

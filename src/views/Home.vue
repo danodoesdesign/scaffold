@@ -10,9 +10,9 @@
                 href="https://danohara.notion.site/9d30f1bf98004106856e741e2139a81d?v=c7c45e6a745848e29ff76e8a90a81228"
                 target="_blank">this
                 Notion database</a> via the <i class="px-2 py-1 rounded-md text-rose-600 bg-slate-100">npm run
-                notion</i> script.
+                dropdown</i> script.
         </p>
-        <DropdownExample class="w-fit" />
+        <Dropdown class="w-fit" />
         <hr />
         <h2 class="mt-10 text-3xl font-bold">Using Notion to structure a page</h2>
         <p>And this <a
@@ -24,20 +24,21 @@
                 class="text-blue-800 underline transition-all hover:underline-offset-2 hover:decoration-2 hover:text-black"
                 href="https://danohara.notion.site/c6c589d90bcd4b81a8091b8d0ce377c2?v=67a93d26cdd046d3b32ea12d7e78b8d1"
                 target="_blank">this
-                Notion database</a> via the same import.
+                Notion database</a> via the <i class="px-2 py-1 rounded-md text-rose-600 bg-slate-100">npm run
+                list</i> script.
         </p>
-        <DescriptionListExample />
+        <DescriptionList />
     </div>
 </template>
 
 <script>
-import DropdownExample from "@/components/dropdownExample.vue";
-import DescriptionListExample from "../components/descriptionListExample.vue";
+import Dropdown from "@/components/dropdown.vue";
+import DescriptionList from "../components/descriptionList.vue";
 
 export default {
     components: {
-        DropdownExample,
-        DescriptionListExample
+        Dropdown,
+        DescriptionList
     }
 
 };

@@ -5,7 +5,8 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --port 5050",
-    "notion": "node ./src/scripts/notionToJson"
+    "dropdown": "node ./src/scripts/dropdown",
+    "list": "node ./src/scripts/list"
   },
   "dependencies": {
     "@headlessui/vue": "^1.5.0",

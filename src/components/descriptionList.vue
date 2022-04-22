@@ -24,21 +24,21 @@ https://tailwindui.com/components/application-ui/data-display/description-lists
                             <div class="px-4 py-5 bg-white sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">Application for</dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{
-                                    applicant.applicationFor
+                                        applicant.applicationFor
                                 }}
                                 </dd>
                             </div>
                             <div class="px-4 py-5 bg-gray-50 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">Email address</dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{
-                                    applicant.emailAddress
+                                        applicant.emailAddress
                                 }}
                                 </dd>
                             </div>
                             <div class="px-4 py-5 bg-white sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">Salary expectation</dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">${{
-                                    applicant.salaryExpectation
+                                        applicant.salaryExpectation
                                 }}
                                 </dd>
                             </div>
@@ -56,7 +56,7 @@ https://tailwindui.com/components/application-ui/data-display/description-lists
 
 <script >
 import { PaperClipIcon } from '@heroicons/vue/solid'
-import notionData from "@/data/dataList.json"
+import dataList from "@/data/dataList.json"
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
@@ -70,7 +70,7 @@ export default {
     },
     data() {
         return {
-            data: notionData,
+            data: dataList,
         }
     },
 }
