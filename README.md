@@ -45,7 +45,7 @@ NOTION_DATABASE_<name>=<database-id>
 
 To map the data you need, make a copy of the `src/scripts/_template.js` file, and rename the file for your own sanity.
 
-In `package.json` from the main directory, add a custom CLI command to run each copy you make:
+In `package.json` from the root folder, add a custom CLI command to run each copy you make:
 ```
 {
   "scripts": {
